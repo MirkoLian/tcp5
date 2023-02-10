@@ -1,4 +1,4 @@
-name: Download and Commit Unicom Address List
+name: Download and Commit Chinese Address Lists
 
 on:
   schedule:
@@ -15,8 +15,12 @@ jobs:
     - name: download Unicom address list
       run: |
         DATE=$(date +"%Y-%m-%d")
+        wget http://www.tcp5.com/list/$(date +"%Y.%m")/all_china$(date +"%Y-%m-%d"-12).rsc -O all_china.rsc
+        wget http://www.tcp5.com/list/$(date +"%Y.%m")/cernet$(date +"%Y-%m-%d"-12).rsc -O cernet.rsc
+        wget http://www.tcp5.com/list/$(date +"%Y.%m")/mobile$(date +"%Y-%m-%d"-12).rsc -O mobile.rsc
+        wget http://www.tcp5.com/list/$(date +"%Y.%m")/other$(date +"%Y-%m-%d"-12).rsc -O other.rsc
+        wget http://www.tcp5.com/list/$(date +"%Y.%m")/telecom$(date +"%Y-%m-%d"-12).rsc -O telecom.rsc
         wget http://www.tcp5.com/list/$(date +"%Y.%m")/unicom$(date +"%Y-%m-%d"-12).rsc -O unicom.rsc
-
     - name: Commit & Push changes
       uses: actions-js/push@master
       with:
