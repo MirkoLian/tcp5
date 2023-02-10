@@ -23,7 +23,7 @@ jobs:
         git checkout -b mybranch
         git add unicom.rsc
         git commit -m "Update Unicom address list as of ${DATE}"
-        git push origin mybranch
+        git push origin main
         echo "Done"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
