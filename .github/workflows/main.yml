@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v2.2.1
 
     - name: download Unicom address list
       run: |
@@ -22,3 +22,4 @@ jobs:
         branch: master
         message: "Update Unicom address list as of ${DATE}"
         directory: "."
+        add: "unicom.rsc"
