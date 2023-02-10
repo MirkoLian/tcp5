@@ -21,4 +21,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
         message: "Update Unicom address list as of ${DATE}"
-        add: "unicom.rsc"
+        directory: "."
