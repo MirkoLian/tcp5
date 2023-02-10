@@ -12,8 +12,9 @@ jobs:
 
     - name: download Unicom address list
       run: |
-        DATE=$(date +"%Y-%m-%d")
-        wget http://www.tcp5.com/list/unicom${DATE}.rsc -O unicom.rsc
+        DATE=$(date +"%Y.%m")
+        DATE2=$(date +"%Y-%m-%d")
+        wget http://www.tcp5.com/list/${DATE}/unicom${DATE}.rsc -O unicom.rsc
         
     - name: Commit & Push changes
       uses: actions-js/push@master
