@@ -1,72 +1,24 @@
-name: Update Address List
-
 on:
   schedule:
-    - cron: '0 0 * * *' # Run every day at midnight UTC
-
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - cron: "0 17 * * *"
+  workflow_dispatch:
 
 jobs:
-  update_address_list:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
+    - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
+    - name: download Unicom address list
+      run: |
+        DATE=$(date +"%Y-%m-%d")
+        wget http://www.tcp5.com/list/unicom${DATE}.rsc -O unicom.rsc
+        
+    - name: Commit & Push changes
+      uses: actions-js/push@master
       with:
-        python-version: 3.8
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
-
-    - name: Download and upload address list
-      run: |
-        import requests
-        import base64
-        import json
-        import datetime
-
-        # GitHub repository details
-        owner = "MirkoLian"
-        repo = "unicom"
-        ref = "heads/master"
-        path = f"unicom{datetime.datetime.now().strftime('%Y-%m-%d-%H')}.rsc"
-        token = "${{ env.GITHUB_TOKEN }}"
-
-        # URL to download the .rsc file
-        url = "http://www.tcp5.com/list"
-        response = requests.get(url)
-
-        if response.status_code == 200:
-            # Encode the file contents as a base64 string
-            content = base64.b64encode(response.content).decode("utf-8")
-
-            # Set up the API request to upload the file to GitHub
-            api_url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path}"
-            headers = {
-                "Authorization": f"Token {token}",
-                "Content-Type": "application/json"
-            }
-            payload = {
-                "message": "Upload address list",
-                "branch": "master",
-                "content": content
-            }
-
-            # Send the API request to upload the file
-            response = requests.put(api_url, headers=headers, data=json.dumps(payload))
-
-            if response.status_code == 201:
-                print(f"File uploaded successfully: {path}")
-            else:
-                print("Failed to upload file")
-                print("Status code:", response.status_code)
-                print("Response:", response.content)
-        else:
-            print("Failed to retrieve .rsc file from", url)
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
+        message: "Update Unicom address list as of ${DATE}"
+        add: "unicom.rsc"
