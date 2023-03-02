@@ -1,4 +1,4 @@
-#Other_China   2023-03-01-12
+#Other_China   2023-03-02-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -91,6 +91,7 @@ add address=113.130.96.0/20 comment="" disabled=no list=List_Other_China
 add address=113.130.112.0/21 comment="" disabled=no list=List_Other_China
 add address=113.197.101.0/24 comment="" disabled=no list=List_Other_China
 add address=113.252.0.0/14 comment="" disabled=no list=List_Other_China
+add address=114.28.230.0/24 comment="" disabled=no list=List_Other_China
 add address=114.117.128.0/21 comment="" disabled=no list=List_Other_China
 add address=114.134.80.0/21 comment="" disabled=no list=List_Other_China
 add address=116.204.184.0/22 comment="" disabled=no list=List_Other_China
@@ -119,7 +120,7 @@ add address=119.235.151.0/24 comment="" disabled=no list=List_Other_China
 add address=119.254.0.0/16 comment="" disabled=no list=List_Other_China
 add address=120.53.52.0/23 comment="" disabled=no list=List_Other_China
 add address=120.92.0.0/17 comment="" disabled=no list=List_Other_China
-add address=120.92.192.0/22 comment="" disabled=no list=List_Other_China
+add address=120.92.194.0/23 comment="" disabled=no list=List_Other_China
 add address=120.92.200.0/21 comment="" disabled=no list=List_Other_China
 add address=120.92.208.0/20 comment="" disabled=no list=List_Other_China
 add address=120.131.0.0/20 comment="" disabled=no list=List_Other_China
