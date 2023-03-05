@@ -12,7 +12,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: download Unicom address list
+    - name: Download Unicom address list
+      id: download
       run: |
         DATE=$(date +"%Y-%m-%d")
         wget http://www.tcp5.com/list/$(date +"%Y.%m")/all_china$(date +"%Y-%m-%d"-12).rsc -O all_china.rsc
@@ -20,8 +21,17 @@ jobs:
         wget http://www.tcp5.com/list/$(date +"%Y.%m")/mobile$(date +"%Y-%m-%d"-12).rsc -O mobile.rsc
         wget http://www.tcp5.com/list/$(date +"%Y.%m")/other$(date +"%Y-%m-%d"-12).rsc -O other.rsc
         wget http://www.tcp5.com/list/$(date +"%Y.%m")/telecom$(date +"%Y-%m-%d"-12).rsc -O telecom.rsc
-        wget http://www.tcp5.com/list/2023.03/unicom2023-03-04-12.rsc -O unicom.rsc
+        wget http://www.http://www.tcp5.com/list/2023.03/unicom2023-03-04-12.rsc -O unicom.rsc
+
+    - name: Check downloaded file
+      run: |
+        if grep -q "<!DOCTYPE html>" all_china.rsc || grep -q "<!DOCTYPE html>" cernet.rsc || grep -q "<!DOCTYPE html>" mobile.rsc || grep -q "<!DOCTYPE html>" other.rsc || grep -q "<!DOCTYPE html>" telecom.rsc || grep -q "<!DOCTYPE html>" unicom.rsc; then
+          echo "Failed to download IP address list. Keeping old file."
+          exit 1
+        fi
+
     - name: Commit & Push changes
+      if: ${{ success() }}
       uses: actions-js/push@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
