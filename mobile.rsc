@@ -1,4 +1,4 @@
-#ChinaMobile   2023-03-13-12
+#ChinaMobile   2023-03-14-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -175,7 +175,6 @@ add address=103.74.48.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=103.78.228.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=103.83.72.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=103.85.84.0/22 comment="" disabled=no list=List_ChinaMobile
-add address=103.85.176.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=103.87.180.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=103.89.185.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=103.94.12.0/22 comment="" disabled=no list=List_ChinaMobile
@@ -212,7 +211,7 @@ add address=103.186.5.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=103.190.122.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.192.0.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.192.213.0/24 comment="" disabled=no list=List_ChinaMobile
-add address=103.192.214.0/24 comment="" disabled=no list=List_ChinaMobile
+add address=103.192.214.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.196.88.0/21 comment="" disabled=no list=List_ChinaMobile
 add address=103.197.228.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=103.198.216.0/21 comment="" disabled=no list=List_ChinaMobile
@@ -223,6 +222,7 @@ add address=103.205.40.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.205.252.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=103.212.1.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=103.212.2.0/23 comment="" disabled=no list=List_ChinaMobile
+add address=103.212.13.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=103.213.96.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=103.213.132.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=103.215.36.0/23 comment="" disabled=no list=List_ChinaMobile
