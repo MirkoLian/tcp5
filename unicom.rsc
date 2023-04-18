@@ -1,4 +1,4 @@
-#ChinaUnicom   2023-04-17-12
+#ChinaUnicom   2023-04-18-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -1354,7 +1354,6 @@ add address=139.198.0.0/21 comment="" disabled=no list=List_ChinaUnicom
 add address=139.198.8.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=139.198.16.0/20 comment="" disabled=no list=List_ChinaUnicom
 add address=139.198.32.0/20 comment="" disabled=no list=List_ChinaUnicom
-add address=139.198.100.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=139.198.112.0/20 comment="" disabled=no list=List_ChinaUnicom
 add address=139.208.0.0/13 comment="" disabled=no list=List_ChinaUnicom
 add address=139.220.192.0/22 comment="" disabled=no list=List_ChinaUnicom
