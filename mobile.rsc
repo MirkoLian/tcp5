@@ -1,4 +1,4 @@
-#ChinaMobile   2023-05-15-12
+#ChinaMobile   2023-05-16-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -198,7 +198,7 @@ add address=103.126.1.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=103.130.160.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.135.196.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=103.139.92.0/23 comment="" disabled=no list=List_ChinaMobile
-add address=103.142.96.0/23 comment="" disabled=no list=List_ChinaMobile
+add address=103.142.96.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=103.142.154.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.143.228.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.144.70.0/24 comment="" disabled=no list=List_ChinaMobile
@@ -437,6 +437,7 @@ add address=119.80.176.0/20 comment="" disabled=no list=List_ChinaMobile
 add address=119.161.168.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=119.161.180.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=119.161.183.0/24 comment="" disabled=no list=List_ChinaMobile
+add address=119.235.163.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=119.253.80.0/20 comment="" disabled=no list=List_ChinaMobile
 add address=119.253.249.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=119.253.252.0/24 comment="" disabled=no list=List_ChinaMobile
@@ -640,6 +641,7 @@ add address=202.168.169.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=202.168.170.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=202.168.177.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=202.168.178.0/23 comment="" disabled=no list=List_ChinaMobile
+add address=202.168.181.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=202.168.185.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=202.168.188.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=202.168.190.0/24 comment="" disabled=no list=List_ChinaMobile
