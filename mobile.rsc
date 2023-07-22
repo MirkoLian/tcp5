@@ -1,4 +1,4 @@
-#ChinaMobile   2023-07-21-12
+#ChinaMobile   2023-07-22-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -479,7 +479,10 @@ add address=121.255.0.0/16 comment="" disabled=no list=List_ChinaMobile
 add address=122.0.64.0/18 comment="" disabled=no list=List_ChinaMobile
 add address=122.14.192.0/19 comment="" disabled=no list=List_ChinaMobile
 add address=122.49.0.0/20 comment="" disabled=no list=List_ChinaMobile
-add address=122.64.0.0/11 comment="" disabled=no list=List_ChinaMobile
+add address=122.64.0.0/12 comment="" disabled=no list=List_ChinaMobile
+add address=122.80.0.0/13 comment="" disabled=no list=List_ChinaMobile
+add address=122.88.0.0/15 comment="" disabled=no list=List_ChinaMobile
+add address=122.92.0.0/14 comment="" disabled=no list=List_ChinaMobile
 add address=122.102.64.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=122.102.66.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=122.115.32.0/19 comment="" disabled=no list=List_ChinaMobile
