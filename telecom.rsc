@@ -1,4 +1,4 @@
-#ChinaTelecom   2023-08-13-12
+#ChinaTelecom   2023-08-14-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -712,7 +712,6 @@ add address=103.135.192.0/24 comment="" disabled=no list=List_ChinaTelecom
 add address=103.135.236.0/24 comment="" disabled=no list=List_ChinaTelecom
 add address=103.139.172.0/23 comment="" disabled=no list=List_ChinaTelecom
 add address=103.139.212.0/23 comment="" disabled=no list=List_ChinaTelecom
-add address=103.140.14.0/23 comment="" disabled=no list=List_ChinaTelecom
 add address=103.142.96.0/23 comment="" disabled=no list=List_ChinaTelecom
 add address=103.143.16.0/22 comment="" disabled=no list=List_ChinaTelecom
 add address=103.144.66.0/23 comment="" disabled=no list=List_ChinaTelecom
@@ -1520,7 +1519,6 @@ add address=124.196.34.0/24 comment="" disabled=no list=List_ChinaTelecom
 add address=124.196.40.0/22 comment="" disabled=no list=List_ChinaTelecom
 add address=124.196.48.0/22 comment="" disabled=no list=List_ChinaTelecom
 add address=124.196.52.0/23 comment="" disabled=no list=List_ChinaTelecom
-add address=124.196.55.0/24 comment="" disabled=no list=List_ChinaTelecom
 add address=124.196.56.0/22 comment="" disabled=no list=List_ChinaTelecom
 add address=124.196.60.0/23 comment="" disabled=no list=List_ChinaTelecom
 add address=124.196.65.0/24 comment="" disabled=no list=List_ChinaTelecom
@@ -1748,6 +1746,8 @@ add address=180.184.48.0/21 comment="" disabled=no list=List_ChinaTelecom
 add address=180.184.56.0/22 comment="" disabled=no list=List_ChinaTelecom
 add address=180.184.64.0/18 comment="" disabled=no list=List_ChinaTelecom
 add address=180.184.128.0/20 comment="" disabled=no list=List_ChinaTelecom
+add address=180.184.144.0/21 comment="" disabled=no list=List_ChinaTelecom
+add address=180.184.152.0/22 comment="" disabled=no list=List_ChinaTelecom
 add address=180.184.160.0/20 comment="" disabled=no list=List_ChinaTelecom
 add address=180.184.176.0/21 comment="" disabled=no list=List_ChinaTelecom
 add address=180.184.184.0/22 comment="" disabled=no list=List_ChinaTelecom
