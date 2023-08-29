@@ -1,4 +1,4 @@
-#ChinaUnicom   2023-08-28-12
+#ChinaUnicom   2023-08-29-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -137,7 +137,7 @@ add address=43.248.48.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=43.248.108.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=43.248.112.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=43.248.184.0/21 comment="" disabled=no list=List_ChinaUnicom
-add address=43.248.192.0/20 comment="" disabled=no list=List_ChinaUnicom
+add address=43.248.200.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=43.248.244.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=43.249.136.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=43.249.192.0/22 comment="" disabled=no list=List_ChinaUnicom
@@ -391,7 +391,6 @@ add address=101.125.250.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=101.129.0.0/16 comment="" disabled=no list=List_ChinaUnicom
 add address=101.132.0.0/15 comment="" disabled=no list=List_ChinaUnicom
 add address=101.198.196.0/22 comment="" disabled=no list=List_ChinaUnicom
-add address=101.199.48.0/20 comment="" disabled=no list=List_ChinaUnicom
 add address=101.199.128.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=101.199.196.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=101.199.252.0/22 comment="" disabled=no list=List_ChinaUnicom
@@ -538,6 +537,7 @@ add address=103.94.200.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.95.220.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.95.222.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=103.95.252.0/22 comment="" disabled=no list=List_ChinaUnicom
+add address=103.96.224.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.98.0.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=103.98.44.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.98.168.0/22 comment="" disabled=no list=List_ChinaUnicom
@@ -547,7 +547,6 @@ add address=103.102.200.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.103.12.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=103.103.36.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=103.105.200.0/22 comment="" disabled=no list=List_ChinaUnicom
-add address=103.107.188.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.107.216.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.108.244.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=103.108.247.0/24 comment="" disabled=no list=List_ChinaUnicom
@@ -747,7 +746,9 @@ add address=106.75.208.0/20 comment="" disabled=no list=List_ChinaUnicom
 add address=106.75.224.0/19 comment="" disabled=no list=List_ChinaUnicom
 add address=110.6.0.0/15 comment="" disabled=no list=List_ChinaUnicom
 add address=110.16.0.0/14 comment="" disabled=no list=List_ChinaUnicom
-add address=110.41.0.0/16 comment="" disabled=no list=List_ChinaUnicom
+add address=110.41.0.0/17 comment="" disabled=no list=List_ChinaUnicom
+add address=110.41.128.0/18 comment="" disabled=no list=List_ChinaUnicom
+add address=110.41.192.0/19 comment="" disabled=no list=List_ChinaUnicom
 add address=110.43.112.0/21 comment="" disabled=no list=List_ChinaUnicom
 add address=110.43.128.0/19 comment="" disabled=no list=List_ChinaUnicom
 add address=110.43.160.0/20 comment="" disabled=no list=List_ChinaUnicom
@@ -1821,7 +1822,6 @@ add address=211.154.176.0/20 comment="" disabled=no list=List_ChinaUnicom
 add address=211.154.192.0/18 comment="" disabled=no list=List_ChinaUnicom
 add address=211.155.32.0/19 comment="" disabled=no list=List_ChinaUnicom
 add address=211.155.80.0/20 comment="" disabled=no list=List_ChinaUnicom
-add address=211.155.120.0/21 comment="" disabled=no list=List_ChinaUnicom
 add address=211.155.160.0/20 comment="" disabled=no list=List_ChinaUnicom
 add address=211.155.176.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=211.155.232.0/22 comment="" disabled=no list=List_ChinaUnicom
