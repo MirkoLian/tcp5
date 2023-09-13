@@ -1,4 +1,4 @@
-#ChinaUnicom   2023-09-12-12
+#ChinaUnicom   2023-09-13-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -460,6 +460,7 @@ add address=103.30.106.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.30.148.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.31.200.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.35.220.0/23 comment="" disabled=no list=List_ChinaUnicom
+add address=103.35.254.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=103.36.28.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.36.174.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.36.208.0/22 comment="" disabled=no list=List_ChinaUnicom
@@ -651,8 +652,6 @@ add address=103.227.228.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.228.160.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.228.204.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.228.208.0/22 comment="" disabled=no list=List_ChinaUnicom
-add address=103.228.229.0/24 comment="" disabled=no list=List_ChinaUnicom
-add address=103.228.230.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=103.229.148.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.229.212.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.230.212.0/22 comment="" disabled=no list=List_ChinaUnicom
@@ -1257,6 +1256,7 @@ add address=124.71.0.0/17 comment="" disabled=no list=List_ChinaUnicom
 add address=124.71.128.0/18 comment="" disabled=no list=List_ChinaUnicom
 add address=124.71.192.0/19 comment="" disabled=no list=List_ChinaUnicom
 add address=124.71.224.0/20 comment="" disabled=no list=List_ChinaUnicom
+add address=124.71.250.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=124.88.0.0/13 comment="" disabled=no list=List_ChinaUnicom
 add address=124.128.0.0/13 comment="" disabled=no list=List_ChinaUnicom
 add address=124.151.0.0/16 comment="" disabled=no list=List_ChinaUnicom
