@@ -1,4 +1,4 @@
-#ChinaUnicom   2023-09-14-12
+#ChinaUnicom   2023-09-15-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -1007,6 +1007,7 @@ add address=118.132.0.0/14 comment="" disabled=no list=List_ChinaUnicom
 add address=118.144.0.0/18 comment="" disabled=no list=List_ChinaUnicom
 add address=118.144.96.0/19 comment="" disabled=no list=List_ChinaUnicom
 add address=118.144.128.0/17 comment="" disabled=no list=List_ChinaUnicom
+add address=118.145.32.0/20 comment="" disabled=no list=List_ChinaUnicom
 add address=118.178.0.0/16 comment="" disabled=no list=List_ChinaUnicom
 add address=118.184.192.0/19 comment="" disabled=no list=List_ChinaUnicom
 add address=118.187.0.0/16 comment="" disabled=no list=List_ChinaUnicom
@@ -1378,7 +1379,7 @@ add address=140.242.224.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=144.36.146.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=144.48.64.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=146.196.68.0/22 comment="" disabled=no list=List_ChinaUnicom
-add address=146.196.116.0/22 comment="" disabled=no list=List_ChinaUnicom
+add address=146.196.112.0/21 comment="" disabled=no list=List_ChinaUnicom
 add address=150.129.136.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=150.129.192.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=150.242.8.0/23 comment="" disabled=no list=List_ChinaUnicom
@@ -1904,6 +1905,7 @@ add address=218.97.241.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=218.97.255.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=218.98.0.0/18 comment="" disabled=no list=List_ChinaUnicom
 add address=218.98.160.0/24 comment="" disabled=no list=List_ChinaUnicom
+add address=218.98.176.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=218.104.0.0/15 comment="" disabled=no list=List_ChinaUnicom
 add address=218.106.0.0/16 comment="" disabled=no list=List_ChinaUnicom
 add address=218.107.0.0/18 comment="" disabled=no list=List_ChinaUnicom
