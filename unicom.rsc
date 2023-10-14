@@ -1,4 +1,4 @@
-#ChinaUnicom   2023-10-13-12
+#ChinaUnicom   2023-10-14-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -579,6 +579,7 @@ add address=103.146.8.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.147.124.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=103.150.24.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.150.164.0/23 comment="" disabled=no list=List_ChinaUnicom
+add address=103.151.142.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.151.148.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.152.76.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.154.41.0/24 comment="" disabled=no list=List_ChinaUnicom
@@ -589,7 +590,7 @@ add address=103.161.254.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.162.10.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.163.180.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=103.164.32.0/24 comment="" disabled=no list=List_ChinaUnicom
-add address=103.170.212.0/23 comment="" disabled=no list=List_ChinaUnicom
+add address=103.170.213.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=103.174.94.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.179.78.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.181.234.0/24 comment="" disabled=no list=List_ChinaUnicom
@@ -627,7 +628,6 @@ add address=103.212.12.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.214.48.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.218.216.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.219.32.0/21 comment="" disabled=no list=List_ChinaUnicom
-add address=103.219.64.0/23 comment="" disabled=no list=List_ChinaUnicom
 add address=103.219.92.0/24 comment="" disabled=no list=List_ChinaUnicom
 add address=103.220.52.0/22 comment="" disabled=no list=List_ChinaUnicom
 add address=103.220.164.0/22 comment="" disabled=no list=List_ChinaUnicom
