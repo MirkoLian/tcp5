@@ -1,4 +1,4 @@
-#ChinaMobile   2023-11-06-12
+#ChinaMobile   2023-11-07-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -17,7 +17,8 @@ add address=43.140.64.0/18 comment="" disabled=no list=List_ChinaMobile
 add address=43.225.84.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=43.227.140.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=43.229.216.0/22 comment="" disabled=no list=List_ChinaMobile
-add address=43.242.96.0/22 comment="" disabled=no list=List_ChinaMobile
+add address=43.242.97.0/24 comment="" disabled=no list=List_ChinaMobile
+add address=43.242.98.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=43.247.240.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=43.248.112.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=43.251.244.0/22 comment="" disabled=no list=List_ChinaMobile
@@ -95,6 +96,7 @@ add address=103.154.41.0/24 comment="" disabled=no list=List_ChinaMobile
 add address=103.154.162.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.156.68.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.169.50.0/23 comment="" disabled=no list=List_ChinaMobile
+add address=103.170.212.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.174.94.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.177.28.0/23 comment="" disabled=no list=List_ChinaMobile
 add address=103.179.78.0/23 comment="" disabled=no list=List_ChinaMobile
@@ -261,6 +263,7 @@ add address=120.192.0.0/10 comment="" disabled=no list=List_ChinaMobile
 add address=121.46.192.0/22 comment="" disabled=no list=List_ChinaMobile
 add address=121.79.128.0/20 comment="" disabled=no list=List_ChinaMobile
 add address=121.79.144.0/22 comment="" disabled=no list=List_ChinaMobile
+add address=121.91.104.0/21 comment="" disabled=no list=List_ChinaMobile
 add address=121.255.0.0/16 comment="" disabled=no list=List_ChinaMobile
 add address=122.0.64.0/18 comment="" disabled=no list=List_ChinaMobile
 add address=122.64.0.0/12 comment="" disabled=no list=List_ChinaMobile
