@@ -1,4 +1,4 @@
-#ALL_China   2023-11-07-12
+#ALL_China   2023-11-08-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
