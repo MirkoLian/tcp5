@@ -1,4 +1,4 @@
-#ALL_China   2024-02-29-12
+#ALL_China   2024-03-01-12
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
@@ -452,7 +452,7 @@ add address=52.82.132.0/24 comment="" disabled=no list=List_ALL_China
 add address=52.82.134.0/23 comment="" disabled=no list=List_ALL_China
 add address=52.82.136.0/24 comment="" disabled=no list=List_ALL_China
 add address=52.82.144.0/23 comment="" disabled=no list=List_ALL_China
-add address=52.82.148.0/22 comment="" disabled=no list=List_ALL_China
+add address=52.82.150.0/23 comment="" disabled=no list=List_ALL_China
 add address=52.82.160.0/21 comment="" disabled=no list=List_ALL_China
 add address=52.82.168.0/24 comment="" disabled=no list=List_ALL_China
 add address=52.82.170.0/23 comment="" disabled=no list=List_ALL_China
@@ -1007,7 +1007,6 @@ add address=103.103.200.0/22 comment="" disabled=no list=List_ALL_China
 add address=103.105.12.0/22 comment="" disabled=no list=List_ALL_China
 add address=103.105.60.0/22 comment="" disabled=no list=List_ALL_China
 add address=103.105.200.0/22 comment="" disabled=no list=List_ALL_China
-add address=103.107.8.0/24 comment="" disabled=no list=List_ALL_China
 add address=103.107.188.0/22 comment="" disabled=no list=List_ALL_China
 add address=103.107.216.0/22 comment="" disabled=no list=List_ALL_China
 add address=103.108.244.0/24 comment="" disabled=no list=List_ALL_China
@@ -1187,7 +1186,7 @@ add address=103.216.252.0/22 comment="" disabled=no list=List_ALL_China
 add address=103.218.216.0/22 comment="" disabled=no list=List_ALL_China
 add address=103.219.28.0/22 comment="" disabled=no list=List_ALL_China
 add address=103.219.32.0/21 comment="" disabled=no list=List_ALL_China
-add address=103.219.64.0/23 comment="" disabled=no list=List_ALL_China
+add address=103.219.65.0/24 comment="" disabled=no list=List_ALL_China
 add address=103.219.84.0/22 comment="" disabled=no list=List_ALL_China
 add address=103.219.92.0/24 comment="" disabled=no list=List_ALL_China
 add address=103.219.176.0/22 comment="" disabled=no list=List_ALL_China
