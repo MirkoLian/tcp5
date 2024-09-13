@@ -16,12 +16,12 @@ jobs:
       id: download
       run: |
         DATE=$(date +"%Y-%m-%d")
-        wget http://www.tcp5.com/list/$(date +"%Y.%m")/all_china$(date +"%Y-%m-%d"-12).rsc -O all_china.rsc
-        wget http://www.tcp5.com/list/$(date +"%Y.%m")/cernet$(date +"%Y-%m-%d"-12).rsc -O cernet.rsc
-        wget http://www.tcp5.com/list/$(date +"%Y.%m")/mobile$(date +"%Y-%m-%d"-12).rsc -O mobile.rsc
-        wget http://www.tcp5.com/list/$(date +"%Y.%m")/other$(date +"%Y-%m-%d"-12).rsc -O other.rsc
-        wget http://www.tcp5.com/list/$(date +"%Y.%m")/telecom$(date +"%Y-%m-%d"-12).rsc -O telecom.rsc
-        wget http://www.tcp5.com/list/$(date +"%Y.%m")/unicom$(date +"%Y-%m-%d"-12).rsc -O unicom.rsc
+        wget http://www.tcp5.com/list/$(date +"%Y.%m")/all_china$(date +"%Y-%m-%d"-05).rsc -O all_china.rsc
+        wget http://www.tcp5.com/list/$(date +"%Y.%m")/cernet$(date +"%Y-%m-%d"-05).rsc -O cernet.rsc
+        wget http://www.tcp5.com/list/$(date +"%Y.%m")/mobile$(date +"%Y-%m-%d"-05).rsc -O mobile.rsc
+        wget http://www.tcp5.com/list/$(date +"%Y.%m")/other$(date +"%Y-%m-%d"-05).rsc -O other.rsc
+        wget http://www.tcp5.com/list/$(date +"%Y.%m")/telecom$(date +"%Y-%m-%d"-05).rsc -O telecom.rsc
+        wget http://www.tcp5.com/list/$(date +"%Y.%m")/unicom$(date +"%Y-%m-%d"-05).rsc -O unicom.rsc
 
     - name: Check downloaded file
       run: |
