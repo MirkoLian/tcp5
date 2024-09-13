@@ -16,8 +16,8 @@ jobs:
       id: download
       run: |
         DATE=$(date +"%Y-%m-%d")
-        wget http://www.tcp5.com/list/$(date +"%Y.%m")/telecom$(date +"%Y-%m-%d"-05).rsc -O telecom.rsc
-        wget http://www.tcp5.com/list/$(date +"%Y.%m")/unicom$(date +"%Y-%m-%d"-05).rsc -O unicom.rsc
+        wget http://ros.tcp5.com/list/$(date +"%Y.%m")/telecom$(date +"%Y-%m-%d"-05).rsc -O telecom.rsc
+        wget http://ros.tcp5.com/list/$(date +"%Y.%m")/unicom$(date +"%Y-%m-%d"-05).rsc -O unicom.rsc
 
     - name: Check downloaded file
       run: |
