@@ -18,6 +18,10 @@ jobs:
         DATE=$(date +"%Y-%m-%d")
         wget http://ros.tcp5.com/list/$(date +"%Y.%m")/telecom$(date +"%Y-%m-%d"-05).rsc -O telecom.rsc
         wget http://ros.tcp5.com/list/$(date +"%Y.%m")/unicom$(date +"%Y-%m-%d"-05).rsc -O unicom.rsc
+        wget http://ros.tcp5.com/list/$(date +"%Y.%m")/telecom$(date +"%Y-%m-%d"-05).rsc -O all_china.rsc
+        wget http://ros.tcp5.com/list/$(date +"%Y.%m")/telecom$(date +"%Y-%m-%d"-05).rsc -O cernet.rsc
+        wget http://ros.tcp5.com/list/$(date +"%Y.%m")/telecom$(date +"%Y-%m-%d"-05).rsc -O mobile.rsc
+        wget http://ros.tcp5.com/list/$(date +"%Y.%m")/telecom$(date +"%Y-%m-%d"-05).rsc -O other.rsc
 
     - name: Check downloaded file
       run: |
